@@ -9,7 +9,7 @@
     
     Nginx 设置允许跨域
     add_header 'Access-Control-Allow-Origin' $http_origin;
-		add_header 'Access-Control-Allow-Credentials' 'true';
-		add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
-		add_header 'Access-Control-Allow-Headers' 'DNT,web-token,app-token,Authorization,Accept,Origin,Keep-Alive,User-Agent,X-Mx-ReqToken,X-Data-Type,X-Auth-Token,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
-		add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+    add_header 'Access-Control-Allow-Credentials' 'true';
+    add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+    add_header 'Access-Control-Allow-Headers' 'DNT,web-token,app-token,Authorization,Accept,Origin,Keep-Alive,User-Agent,X-Mx-ReqToken,X-Data-Type,X-Auth-Token,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+    add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
